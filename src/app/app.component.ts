@@ -10,5 +10,5 @@ import { Component } from '@angular/core';
 
 // methods go here
 export class AppComponent {
-  title: string = 'Task Tracker';
+
 }
