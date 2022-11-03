@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ButtonComponent } from '../button/button.component';
 @Component({
   //called in main  app component, no import statement needed
   selector: 'app-header',
@@ -15,4 +15,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleAddTask(){
+    console.log('toggle')
+  }
 }
